@@ -9,8 +9,8 @@ export default function App() {
   return (
     <div className={`box ${isMorning ? 'daynight' : ' ' } `}>
 
-        <h1>Day Time = {isMorning ? 'Day':' Night'}</h1>
-
+        <h1>Good  {isMorning ? 'Day':' Night'}</h1>
+ 
         <Output counter={count} />
         <br/>
         <button onClick=
@@ -19,7 +19,7 @@ export default function App() {
         }
         >Click Me</button> 
 
-        <br/>  
+        <br/>   
 
         <button onClick=
         {
